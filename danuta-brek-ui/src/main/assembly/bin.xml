@@ -1,0 +1,17 @@
+<assembly>
+    <id>danuta-brek-ui-id</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <!-- Webforms desktop -->
+        <fileSet>
+            <directory>target/webapp</directory>
+            <outputDirectory></outputDirectory>
+            <includes>
+                <include>**</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

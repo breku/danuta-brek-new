@@ -93,10 +93,10 @@
 
     <profiles>
         <profile>
+
+
             <id>local</id>
             <build>
-
-
                 <finalName>${project.name}</finalName>
                 <plugins>
                     <plugin>
@@ -110,8 +110,8 @@
                     <plugin>
                         <artifactId>maven-resources-plugin</artifactId>
                     </plugin>
-                </plugins>
 
+                </plugins>
 
                 <filters>
                     <filter>src/main/resources/local/config.properties</filter>
@@ -122,7 +122,6 @@
                         <directory>src/main/resources</directory>
                     </resource>
                 </resources>
-
             </build>
         </profile>
 

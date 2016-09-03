@@ -1,0 +1,30 @@
+#whole-wrapper {
+  padding-top: $layout-navbar-height;
+}
+#content {
+  padding-top: $layout-navbar-to-content-padding;
+  .page-loading & {
+    display: none;
+  }
+}
+
+// fix for weird blinking and selection on mobile safari.
+html,
+body {
+  height: 100%;
+}
+
+#content-view {
+  -webkit-user-select: initial;
+}
+
+// make sure that speed button not mask content view
+#content-view {
+  @media (max-width: 920px) {
+    margin-bottom: 80px;
+  }
+  @media (min-width: 920px) {
+    margin-bottom: 50px;
+  }
+}
+

@@ -17,3 +17,7 @@ hs_err_pid*
 
 target/
 webapps/
+
+bower_components/
+node_modules/
+typings/

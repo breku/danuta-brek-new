@@ -1,0 +1,18 @@
+<nav id="flow-navbar" ng-init="navbarDirective.init()">
+    <div class="navbar-element main-menu-button cd-toggle-button">
+        <button id="open-sidebar-menu-button" type="button" class="cd-navbar-toggle" ng-click="navbarDirective.toggleSidebarMenu()" tabindex="1">
+            <span class="cd-icon-bar"></span>
+            <span class="cd-icon-bar"></span>
+            <span class="cd-icon-bar"></span>
+        </button>
+    </div>
+
+    <div class="navbar-element navbar-middle container">
+    </div>
+
+    <div class="navbar-element hidden-xs">
+        <a href="#index"> <img src="imgs/logo.png"
+                               alt="{{  APP_TITLE | translate }}" >
+        </a>
+    </div>
+</nav>
